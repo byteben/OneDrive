@@ -58,7 +58,7 @@ Do
 	
 	If ($UserShellFolderDir -ne $OneDriveCommercialPath)
 	{
-		#Sleep 10 Seconds before checking if OneDrive KFM policies have redirected the desktop
+		#Sleep 1 Second before checking if OneDrive KFM policies have redirected desktop
 		Start-Sleep -s 1
 		
 		#Set time remaining counter

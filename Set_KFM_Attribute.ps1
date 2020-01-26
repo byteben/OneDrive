@@ -1,16 +1,18 @@
 <#
-
-	===========================================================================
-	 Created on:   	26/01/2020 10:45
-	 Created by:   	Ben Whitmore
-	 Organization: 	
-	 Filename:     	Set_KFM_Attribute.ps1
-	-------------------------------------------------------------------------
-	 Script Name: Set_KFM_Attribute
-    ===========================================================================
+===========================================================================
+Created on:   	26/01/2020 10:45
+Created by:   	Ben Whitmore
+Organization: 	
+Filename:     	Set_KFM_Attribute.ps1
+-------------------------------------------------------------------------
+Script Name: Set_KFM_Attribute
+===========================================================================
     
-    Version:
-    1.1.26   26/01/2020  Ben Whitmore
+Version:
+1.1.26.1   26/01/2020  Ben Whitmore
+Added "Favorites" as Known Folder Location
+
+1.1.26.0   26/01/2020  Ben Whitmore
 
 .DESCRIPTION
 Script to set KnownFolder Pinned status

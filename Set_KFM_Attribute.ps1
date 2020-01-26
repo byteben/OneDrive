@@ -16,7 +16,7 @@
 Script to set KnownFolder Pinned status
 
 .PARAMETER KnownFolder
-Specify which KnownFolders to process. Choice of "Desktop", "Documents", "Pictures".
+Specify which KnownFolders to process. Choice of "Desktop", "Documents", "Pictures", "Favorites".
 
 .PARAMETER PinStatus
 Specify the Pinned atribute to pass. Choice of "Pin", "Unpin".
@@ -29,7 +29,7 @@ Set_KFM_Attribute.ps1 -KnownFolder "Desktop", "Documents" -PinStatus "Pin"
 [CmdletBinding()]
 param (
     [Parameter(Mandatory)]
-    [ValidateSet("Desktop", "Documents", "Pictures")]
+    [ValidateSet("Desktop", "Documents", "Pictures", "Favorites")]
     [String[]]$KnownFolder,
     [Parameter(Mandatory)]
     [ValidateSet("Pin","UnPin")]

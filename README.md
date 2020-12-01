@@ -1,5 +1,5 @@
 # OneDrive
-PowerShell Scripts for OneDrive Discovery and remediation in WIndows 10 / SCCM
+PowerShell Scripts for OneDrive Discovery and remediation in Windows 10 using ConfigMgr / MEMCM
 
 OneDrive_Detect_Favorites_Sync.ps1 - Used for the SCCM App Detection Method. Will return a value of True if file "Favorites_Synced.txt" exists in the Users OneDrive\Documents folder
 

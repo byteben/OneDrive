@@ -45,7 +45,7 @@ $OneDriveDir = $Env:OneDriveCommercial
 $Username = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $Username = $Username.split("\")[1]
 
-#Set variable for exisitng homedrive
+#Set variable for existing homedrive
 $HomeDrive = Join-Path $HomeDriveRoot $Username
 
 #Define file types we do not want to copy to OneDrive

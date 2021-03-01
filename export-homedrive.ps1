@@ -5,7 +5,7 @@ Created by:   	Ben Whitmore
 Organization: 	
 Filename:     	Export-HomeDrive.ps1
 -------------------------------------------------------------------------
-Script Name: export-homedrive
+Script Name: Export-Homedrive
 ===========================================================================
 
 Version 1.1 - 01/03/21

@@ -43,7 +43,7 @@ $OneDriveDir = $Env:OneDriveCommercial
 
 #Get username and remove the Domain Netbios portion
 $Username = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
-$username = $Username.Replace("MY-DOMAIN\", "")
+$Username = $Username.split("\")[1]
 
 #Set variable for exisitng homedrive
 $HomeDrive = Join-Path $HomeDriveRoot $Username

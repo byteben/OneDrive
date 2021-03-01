@@ -83,7 +83,7 @@ Foreach ($Destination in $Destinations) {
                 Robocopy.exe $HomeSource $OneDriveDestination /e /z /sec /r:5 /w:1 /reg /v /eta /xf *.lnk *.url $Exclude /xd (Join-Path $HomeSource '$Recycle.Bin') /UNILOG+:$Log
             }
             else {
-                Robocopy.exe $HomeSource $OneDriveDestination /e /z /sec /r:5 /w:1 /reg /v /eta $Exclude /xd (Join-Path $HomeSource '$Recycle.Bin') /UNILOG+:$Log
+                Robocopy.exe $HomeSource $OneDriveDestination /e /z /sec /r:5 /w:1 /reg /v /eta /xf $Exclude /xd (Join-Path $HomeSource '$Recycle.Bin') /UNILOG+:$Log
             }
         }
         
